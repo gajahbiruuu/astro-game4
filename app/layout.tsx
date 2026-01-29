@@ -10,6 +10,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: farcasterConfig.miniapp.name,
     description: farcasterConfig.miniapp.description,
     other: {
+      "base:app_id": "697b2282748a9bde7c61ab74",
       "fc:frame": JSON.stringify({
         version: farcasterConfig.miniapp.version,
         imageUrl: farcasterConfig.miniapp.heroImageUrl,
